@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactc Us</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <div class="form-group">
+            <label>
+                <span>First Name *</span>
+                <input type="text" id="name" name="name" placeholder="First Name" required>
+            </label>
+                
+                <label>
+                    <span>Last Name *</span>
+                    <input type="text" placeholder="Last Name">
+                </label>
+                
+            </div>
+            <div class="form-group">
+                <label>
+                    <span>Email Address *</span>
+                    <input type="email" id="email" name="email" placeholder="Email manzilingizni kiriting" required>
+                </label>   
+            </div>
+
+            <div class="query">
+                <label>
+                    <span>Query Type *</span>
+                </label>
+                <div class="type">
+                  <label>
+                    <span>General Enquiry</span>
+                    <input type="radio" name="type" placeholder="General">
+                </label>
+
+                <label>
+                    <span>Support Request</span>
+                    <input type="radio" name="type">
+                </label>  
+                </div>
+                
+                
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <span>Message *</span>
+                    <textarea id="message" name="message"></textarea>
+                </label>
+             
+            <div class="checkbox">
+                <input type="checkbox" class="check">I consent to being contacted by the team *
+            </div>    
+                
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
