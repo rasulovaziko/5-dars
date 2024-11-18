@@ -55,7 +55,7 @@ label {
     cursor: pointer;
 }
 
-input, textarea {
+input {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -64,6 +64,18 @@ input, textarea {
     cursor: pointer;
     outline: #0C7D69;
 }
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #0C7D69;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: #0C7D69;
+}
+
+
 
 textarea {
     height: 150px;
@@ -96,7 +108,7 @@ button:hover {
 
 .checkbox {
     display: flex;
-
+    
 }
 
 .check {
